@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #fefeff;
+  background-color:  rgb(187, 240, 149);
+  color: black;
 }
 
 .layout_padding {
@@ -74,7 +75,7 @@ nav.navbar.navbar-expand-lg {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 20px;
-  color: #f7f6f7;
+  color: black;
   text-align: center;
 }
 
@@ -107,7 +108,9 @@ a:focus {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(../images/hero-bg.png);
+  background-color: rgb(187, 240, 149);
+  /* background: url(../images/outdoor-music-station-1.jpg);
+  opacity: 0.5; */
   background-size: 100% 100%;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -115,11 +118,11 @@ a:focus {
 }
 
 .sub_page .top_container::before {
-  background-color: #fdd31d;
+  background-color: rgb(187, 240, 149);
   background-image: none;
 }
 
-.top_container::after {
+/* .top_container::after {
   content: "";
   position: absolute;
   width: 75px;
@@ -127,7 +130,7 @@ a:focus {
   bottom: 20%;
   left: 6%;
   background-color: #fdd31d;
-}
+} */
 
 
 .sub_page .top_container::after {
@@ -160,7 +163,7 @@ a:focus {
 .navbar-brand span {
   font-size: 22px;
   font-weight: 700;
-  color: #fefefe;
+  color: black;
 }
 
 .custom_nav-container {
@@ -201,12 +204,12 @@ a:focus {
 }
 
 .hero_detail-box {
-  color: #fefeff;
+  color:black;
 }
 
 .hero_detail-box h1 {
   font-size: 50px;
-  color: #fefeff;
+  color: black;
   font-weight: 600;
   width: 70%;
 }
@@ -250,7 +253,7 @@ a:focus {
   width: 100%;
 }
 .about_img-container{
-  width: 65%;
+  width: 98%;
 }
 
 
@@ -274,10 +277,7 @@ a:focus {
 /* admission section */
 
 
-.admission_section a {
-  background-color: #fdd31d;
-  color: #fefeff;
-}
+
 
 /* end admission section */
 
@@ -289,7 +289,7 @@ a:focus {
 
 .why_section a {
   background-color: #6ebca8;
-  color: #fefeff;
+  color:black;
 }
 
 /* end why section */
@@ -297,10 +297,6 @@ a:focus {
 /* determine section */
 
 
-.determine_section a {
-  background-color: #fdd31d;
-  color: #fefeff;
-}
 
 
 /* end determine section */
@@ -480,7 +476,7 @@ a:focus {
 .info_logo-box h2 {
   font-weight: bold;
   padding: 5px 7px;
-  border-bottom: 1.5px solid #fdd31d;
+  border-bottom: 1.5px solid  rgb(187, 240, 149);
 }
 
 .info_section ul {
